@@ -19,11 +19,11 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   const navItems = [
-    { name: "Inicio", path: "/autoescuela-scania" },
-    { name: "Sobre Nosotros", path: "/autoescuela-scania/sobre-nosotros" },
-    { name: "Nuestras Cursos", path: "/autoescuela-scania/servicios" },
-    { name: "Precios", path: "/autoescuela-scania/precios" },
-    { name: "Contactos", path: "/autoescuela-scania/contacto" },
+    { name: "Inicio", path: "/" },
+    { name: "Sobre Nosotros", path: "/sobre-nosotros" },
+    { name: "Nuestras Cursos", path: "/servicios" },
+    { name: "Precios", path: "/precios" },
+    { name: "Contactos", path: "/contacto" },
   ];
   return (
     <div>
@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <Link to="/autoescuela-scania" className="flex items-center">
+              <Link to="/" className="flex items-center">
                 <img src={logo} style={{ width: "260px" }} />
               </Link>
             </div>

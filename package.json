@@ -1,9 +1,9 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "autoescuela",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mikesoft-mk.github.io/autoescuela-scania/",
+  "homepage": "https://autoescuela-scania.com",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
